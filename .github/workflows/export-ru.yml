@@ -1,0 +1,51 @@
+name: Export RU to DOCX
+
+on:
+  # Кнопка "Run workflow" в Actions
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Путь к документу на русском языке (Markdown)'
+        required: true
+        default: 'digital-Codex-2024-ru.md'
+      outname:
+        description: 'Имя выходного файла (без .docx)'
+        required: false
+        default: 'digital-Codex-2024-ru'
+  # Автосборка при изменении исходника или шаблона
+  push:
+    paths:
+      - 'digital-Codex-2024-ru.md'
+      - '.pandoc/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Prepare
+        id: prep
+        run: |
+          echo "SRC=${{ github.event.inputs.source || 'digital-Codex-2024-ru.md' }}" >> $GITHUB_OUTPUT
+          echo "OUT=${{ github.event.inputs.outname || 'digital-Codex-2024-ru' }}" >> $GITHUB_OUTPUT
+          mkdir -p exports
+
+      - name: Build DOCX
+        run: |
+          REF=""
+          if [ -f ".pandoc/reference.docx" ]; then REF="--reference-doc=.pandoc/reference.docx"; fi
+          pandoc "${{ steps.prep.outputs.SRC }}" -o "exports/${{ steps.prep.outputs.OUT }}.docx" \
+            --from=gfm+smart $REF
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "${{ steps.prep.outputs.OUT }}-docx"
+          path: "exports/*.docx"
