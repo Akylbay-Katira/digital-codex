@@ -1,0 +1,21 @@
+name: Предложение изменений
+description: Предложить правку или раздел
+title: "[proposal]: "
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема/контекст
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Предложение (конкретный текст или разделы)
+  - type: checkboxes
+    id: langs
+    attributes:
+      label: Языки
+      options:
+        - label: RU
+        - label: EN
+        - label: KZ
