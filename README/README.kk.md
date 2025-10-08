@@ -1,8 +1,8 @@
 # Цифрлық Кодекс (KK)
 
-[![kk](https://img.shields.io/badge/lang-kk-blue.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.kk.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.ru.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.en.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
+[![kk](assets/badges/kk.svg)](README.kk.md)
+[![ru](assets/badges/ru.svg)](README.ru.md)
+[![en](assets/badges/en.svg)](README.en.md)
 
 Кодексті қоғамдық әзірлеу. Барлық өзгерістер **Pull Request** арқылы жасалып, жоба жетекшісі бекітуі тиіс.
 
