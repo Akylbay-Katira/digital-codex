@@ -2,7 +2,7 @@
 
 [![kk](https://img.shields.io/badge/lang-kk-blue.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.kk.md)  <!-- Replace with your repository address -->
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.ru.md)  <!-- Replace with your repository address -->
-[![en](https://img.shields.io/badge/lang-en-yellow.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.en.md)  <!-- Replace with your repository address -->
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.en.md)  <!-- Replace with your repository address -->
 
 Public development of the codex. All changes are made via **Pull Request** and must be approved by the project lead.
 

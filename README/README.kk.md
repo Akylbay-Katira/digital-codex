@@ -2,7 +2,7 @@
 
 [![kk](https://img.shields.io/badge/lang-kk-blue.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.kk.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.ru.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
-[![en](https://img.shields.io/badge/lang-en-yellow.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.en.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/liiliiilliliiiliiiilllilliilililiiiilli/digital-codex/blob/main/README/README.en.md)  <!-- Өз репозиториіңіздің адресіне ауыстырыңыз -->
 
 Кодексті қоғамдық әзірлеу. Барлық өзгерістер **Pull Request** арқылы жасалып, жоба жетекшісі бекітуі тиіс.
 
