@@ -1,8 +1,8 @@
 # Digital Codex (EN)
 
-[![kk](./README/assets/badges/kk.svg)](./README/README.kk.md)
-[![ru](./README/assets/badges/ru.svg)](./README/README.ru.md)
-[![en](./README/assets/badges/en.svg)](./README/README.en.md)
+[![kk](assets/badges/kk.svg)](README.kk.md)
+[![ru](assets/badges/ru.svg)](README.ru.md) 
+[![en](assets/badges/en.svg)](README.en.md)
 
 Public development of the codex. All changes are made via **Pull Request** and must be approved by the project lead.
 
