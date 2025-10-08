@@ -1,8 +1,8 @@
 # Цифрлық Кодекс (KK)
 
-[![kk](assets/badges/kk.svg)](README.kk.md)
-[![ru](assets/badges/ru.svg)](README.ru.md) 
-[![en](assets/badges/en.svg)](README.en.md)
+[![kk](./README/assets/badges/kk.svg)](./README/README.kk.md)
+[![ru](./README/assets/badges/ru.svg)](./README/README.ru.md)
+[![en](./README/assets/badges/en.svg)](./README/README.en.md)
 
 Кодексті қоғамдық әзірлеу. Барлық өзгерістер **Pull Request** арқылы жасалып, жоба жетекшісі бекітуі тиіс.
 
