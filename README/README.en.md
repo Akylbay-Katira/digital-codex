@@ -18,8 +18,8 @@ We welcome suggestions for improving and expanding the document. Open an **Issue
 
 2. Make changes to the relevant file:
 
-   - `digital-codex/digital-Codex-2024-ru.md`
-   - `digital-codex/digital-Codex-2024-en.md`
-   - `digital-codex/digital-Codex-2024-kk.md`
+   - `../digital-Codex-2024-ru.md`
+   - `../digital-Codex-2024-en.md`
+   - `../digital-Codex-2024-kk.md`
 
 3. Create a **Pull Request**, fill out the template, and wait for a review.

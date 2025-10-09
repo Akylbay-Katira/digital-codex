@@ -18,8 +18,8 @@
 
 2. Внесите изменения в соответствующий файл:
 
-   - `digital-codex/digital-Codex-2024-ru.md`
-   - `digital-codex/digital-Codex-2024-en.md`
-   - `digital-codex/digital-Codex-2024-kk.md`
+   - `../digital-Codex-2024-ru.md`
+   - `../digital-Codex-2024-en.md`
+   - `../digital-Codex-2024-kk.md`
 
 3. Создайте **Pull Request**, заполните шаблон и дождитесь ревью.
