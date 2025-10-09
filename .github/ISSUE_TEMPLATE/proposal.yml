@@ -1,7 +1,7 @@
 name: Предложение изменений
 description: Предложить правку или раздел
 title: "[proposal]: "
-labels: ["proposal"]
+labels: ["proposal", "needs-triage"]
 body:
   - type: textarea
     id: problem
